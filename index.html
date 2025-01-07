@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punition</title>
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com">-->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body data-theme="dark">
+
+    <header>
+        <h1>C'est l'heure de la Punition !!!</h1>
+        <ul>
+            <li data-mode="light">Light</li>
+            <li data-mode="dark">Dark</li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="content">
+            <div class="board">
+                <div class="text-board">
+                </div>
+                <img class="background" src="images/tableau.webp" alt="tableau">
+            </div>
+
+            <div class="settings">
+                <div class="line">
+                    <div class="field text-field">
+                        <label for="text">Texte à recopier</label>
+                        <input type="text" name="text" id="text" class="input" maxlength="40">
+                    </div>
+                    <div id="button">🥸</div>
+                    <div class="field">
+                        <label for="number_lines">Lignes</label>
+                        <input type="number" name="number_lines" id="number_lines" value="5" class="number_lines" min="1" max="10">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://code.responsivevoice.org/responsivevoice.js?key=auvTMQpf"></script>
+</html>
